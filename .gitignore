@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Conda
+.env
+venv/
+
+# Data
+data/
+dataset/
+datasets/
+
+# Models
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs
+lightning_logs/
+runs/
+outputs/
+
+# Misc
+.DS_Store
