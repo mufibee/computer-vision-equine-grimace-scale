@@ -10,12 +10,11 @@ __pycache__/
 .env
 venv/
 
-# Data
-data/
-dataset/
-datasets/
+# Raw dataset only
+data/raw/
+data/processed/
 
-# Models
+# Model checkpoints
 *.pt
 *.pth
 *.ckpt

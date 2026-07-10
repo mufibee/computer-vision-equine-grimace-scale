@@ -1,0 +1,8 @@
+{
+    "total_clean_images": 3812,
+    "number_of_horses": 7,
+    "number_of_face_regions": 3,
+    "number_of_pain_scores": 3,
+    "corrupted_images_found": 0,
+    "exact_duplicate_records_removed": 1035
+}

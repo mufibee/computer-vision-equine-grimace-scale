@@ -1,0 +1,52 @@
+{
+    "dataset": "oliveirabruno01/openfarm-horse-grimace-region",
+    "task": "three-class facial-region pain-score classification",
+    "label_mapping": {
+        "0": "not_present",
+        "1": "moderately_present",
+        "2": "obviously_present"
+    },
+    "initial_raw_records": 4847,
+    "corrupted_records": 0,
+    "exact_duplicates_removed": 1035,
+    "final_records": 3812,
+    "splits": [
+        {
+            "split": "train",
+            "images": 2581,
+            "horses": 4,
+            "horse_ids": [
+                "M1",
+                "M2",
+                "M3",
+                "M5"
+            ],
+            "score_0": 1607,
+            "score_1": 555,
+            "score_2": 419
+        },
+        {
+            "split": "validation",
+            "images": 315,
+            "horses": 1,
+            "horse_ids": [
+                "M4"
+            ],
+            "score_0": 203,
+            "score_1": 67,
+            "score_2": 45
+        },
+        {
+            "split": "test",
+            "images": 916,
+            "horses": 2,
+            "horse_ids": [
+                "M6",
+                "M7"
+            ],
+            "score_0": 488,
+            "score_1": 221,
+            "score_2": 207
+        }
+    ]
+}
