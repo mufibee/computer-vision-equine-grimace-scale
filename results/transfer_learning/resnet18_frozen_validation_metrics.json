@@ -1,0 +1,28 @@
+{
+    "architecture": "resnet18",
+    "training_mode": "frozen",
+    "num_classes": 3,
+    "dropout_rate": 0.5,
+    "pretrained_weights": "ResNet18_Weights.DEFAULT",
+    "augmentation": "random_crop",
+    "normalization": "imagenet",
+    "checkpoint_selection_metric": "validation_loss",
+    "best_checkpoint_epoch": 7,
+    "best_checkpoint_validation_loss": 0.6683848842741951,
+    "validation_loss": 0.6683848842741951,
+    "validation_accuracy": 0.746031746031746,
+    "validation_macro_precision": 0.6381937129458106,
+    "validation_macro_recall": 0.6630661688819176,
+    "validation_macro_f1": 0.6412276851883935,
+    "validation_weighted_f1": 0.7547130114071662,
+    "training_accuracy_at_checkpoint": 0.6299883765982177,
+    "accuracy_overfitting_gap": -0.11604336943352833,
+    "learning_rates": {
+        "classifier": 0.001
+    },
+    "checkpoint_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/transfer_learning/checkpoints/resnet18_frozen_best.pth",
+    "history_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/transfer_learning/histories/resnet18_frozen_history.csv",
+    "total_parameters": 11178051,
+    "trainable_parameters": 1539,
+    "frozen_parameters": 11176512
+}

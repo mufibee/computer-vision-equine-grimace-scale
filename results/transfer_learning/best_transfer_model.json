@@ -1,0 +1,56 @@
+{
+    "architecture": "resnet18",
+    "training_mode": "fine_tuned",
+    "num_classes": 3,
+    "dropout_rate": 0.5,
+    "pretrained_weights": "ResNet18_Weights.DEFAULT",
+    "augmentation": "random_crop",
+    "normalization": "imagenet",
+    "image_size": 224,
+    "resize_size": 256,
+    "class_names": [
+        "Pain Score 0",
+        "Pain Score 1",
+        "Pain Score 2"
+    ],
+    "class_weights": [
+        0.5353661066168844,
+        1.5501501501501502,
+        2.053301511535402
+    ],
+    "selection_metric": "validation_macro_f1",
+    "selection_metric_value": 0.6975608834302688,
+    "source_checkpoint": "/home/uteam6/computer-vision-equine-grimace-scale/results/transfer_learning/checkpoints/resnet18_finetuned_best.pth",
+    "source_history": "/home/uteam6/computer-vision-equine-grimace-scale/results/transfer_learning/histories/resnet18_finetuned_history.csv",
+    "validation_metrics": {
+        "architecture": "resnet18",
+        "training_mode": "fine_tuned",
+        "num_classes": 3,
+        "dropout_rate": 0.5,
+        "pretrained_weights": "ResNet18_Weights.DEFAULT",
+        "augmentation": "random_crop",
+        "normalization": "imagenet",
+        "checkpoint_selection_metric": "validation_loss",
+        "best_checkpoint_epoch": 8,
+        "best_checkpoint_validation_loss": 0.5885753699711391,
+        "validation_loss": 0.5885753699711391,
+        "validation_accuracy": 0.780952380952381,
+        "validation_macro_precision": 0.6884557259329848,
+        "validation_macro_recall": 0.7086940775051943,
+        "validation_macro_f1": 0.6975608834302688,
+        "validation_weighted_f1": 0.7850020589480774,
+        "training_accuracy_at_checkpoint": 0.769469197985277,
+        "accuracy_overfitting_gap": -0.011483182967103933,
+        "learning_rates": {
+            "backbone": 1e-05,
+            "classifier": 0.0001
+        },
+        "checkpoint_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/transfer_learning/checkpoints/resnet18_finetuned_best.pth",
+        "history_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/transfer_learning/histories/resnet18_finetuned_history.csv",
+        "total_parameters": 11178051,
+        "trainable_parameters": 11178051,
+        "frozen_parameters": 0
+    },
+    "canonical_checkpoint": "/home/uteam6/computer-vision-equine-grimace-scale/results/transfer_learning/best_transfer_model.pth",
+    "canonical_history": "/home/uteam6/computer-vision-equine-grimace-scale/results/transfer_learning/best_transfer_history.csv"
+}
