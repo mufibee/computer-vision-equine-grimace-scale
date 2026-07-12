@@ -1,0 +1,7 @@
+{
+    "phase_6_validation_macro_f1": 0.6496500304321363,
+    "best_tuned_validation_macro_f1": 0.7076817104980431,
+    "macro_f1_improvement": 0.058031680065906754,
+    "canonical_model_replaced": true,
+    "decision": "The tuned ResNet18 became the canonical final candidate because its validation Macro F1 (0.7077) exceeded the Phase 6 candidate (0.6497)."
+}

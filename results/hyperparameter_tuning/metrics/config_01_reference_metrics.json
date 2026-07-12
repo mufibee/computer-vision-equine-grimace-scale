@@ -1,0 +1,20 @@
+{
+    "experiment_id": "config_01_reference",
+    "learning_rate": 0.001,
+    "dropout": 0.5,
+    "weight_decay": 0.0001,
+    "changed_parameter": "reference",
+    "training_mode": "fine_tuned",
+    "best_epoch": 5,
+    "epochs_completed": 10,
+    "elapsed_seconds": 72.49084075260907,
+    "validation_loss": 0.6233444558249579,
+    "validation_accuracy": 0.7111111111111111,
+    "validation_macro_precision": 0.6211116025357512,
+    "validation_macro_recall": 0.6717588848314531,
+    "validation_macro_f1": 0.6047325240910933,
+    "validation_weighted_f1": 0.7218940636344297,
+    "checkpoint_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/hyperparameter_tuning/checkpoints/config_01_reference_best.pth",
+    "history_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/hyperparameter_tuning/histories/config_01_reference_history.csv",
+    "predictions_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/hyperparameter_tuning/metrics/config_01_reference_predictions.csv"
+}

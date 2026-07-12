@@ -1,0 +1,20 @@
+{
+    "experiment_id": "config_07_weight_decay_high",
+    "learning_rate": 0.001,
+    "dropout": 0.5,
+    "weight_decay": 0.001,
+    "changed_parameter": "weight_decay",
+    "training_mode": "fine_tuned",
+    "best_epoch": 5,
+    "epochs_completed": 10,
+    "elapsed_seconds": 75.38389469031245,
+    "validation_loss": 0.6445078246177189,
+    "validation_accuracy": 0.7015873015873015,
+    "validation_macro_precision": 0.6155103668261563,
+    "validation_macro_recall": 0.642239813521337,
+    "validation_macro_f1": 0.5970153342185004,
+    "validation_weighted_f1": 0.7161213337617408,
+    "checkpoint_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/hyperparameter_tuning/checkpoints/config_07_weight_decay_high_best.pth",
+    "history_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/hyperparameter_tuning/histories/config_07_weight_decay_high_history.csv",
+    "predictions_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/hyperparameter_tuning/metrics/config_07_weight_decay_high_predictions.csv"
+}

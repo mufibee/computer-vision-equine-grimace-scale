@@ -1,0 +1,8 @@
+experiment_id,changed_parameter,learning_rate,dropout,weight_decay,validation_macro_f1,macro_f1_change_from_reference
+config_02_lr_low,learning_rate,0.0003,0.5,0.0001,0.7076817104980431,0.10294918640694972
+config_03_lr_high,learning_rate,0.003,0.5,0.0001,0.6751290591600027,0.0703965350689093
+config_04_dropout_low,dropout,0.001,0.3,0.0001,0.6610601732552952,0.056327649164201854
+config_06_no_weight_decay,weight_decay,0.001,0.5,0.0,0.6090513538748833,0.004318829783789946
+config_01_reference,reference,0.001,0.5,0.0001,0.6047325240910933,0.0
+config_07_weight_decay_high,weight_decay,0.001,0.5,0.001,0.5970153342185004,-0.0077171898725929555
+config_05_dropout_high,dropout,0.001,0.7,0.0001,0.5231479322009804,-0.08158459189011291
