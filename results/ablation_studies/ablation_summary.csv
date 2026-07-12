@@ -1,0 +1,6 @@
+component,without,with,improvement,without_model,with_model
+Data augmentation,0.5976688309753474,0.6362921324299485,0.03862330145460113,Baseline CNN,Augmented CNN
+Fine-tuning,0.6432573029211685,0.7037039720345583,0.060446669113389806,Frozen ResNet18,Fine-tuned ResNet18
+Transfer learning,0.6362921324299485,0.7037039720345583,0.06741183960460972,Augmented CNN,Fine-tuned ResNet18
+Hyperparameter tuning,0.6047325240910933,0.7076817104980431,0.10294918640694972,Reference configuration,Best tuned configuration
+Class weights,0.7124394260257173,0.7076817104980431,-0.004757715527674233,Unweighted loss,Weighted loss

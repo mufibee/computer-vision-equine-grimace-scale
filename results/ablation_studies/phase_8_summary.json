@@ -1,0 +1,55 @@
+{
+    "primary_metric": "validation_macro_f1",
+    "test_set_used": false,
+    "class_weight_ablation_trained": true,
+    "best_positive_component": "Hyperparameter tuning",
+    "best_positive_improvement": 0.10294918640694972,
+    "experiments": [
+        {
+            "component": "Data augmentation",
+            "without": 0.5976688309753474,
+            "with": 0.6362921324299485,
+            "improvement": 0.03862330145460113,
+            "without_model": "Baseline CNN",
+            "with_model": "Augmented CNN"
+        },
+        {
+            "component": "Fine-tuning",
+            "without": 0.6432573029211685,
+            "with": 0.7037039720345583,
+            "improvement": 0.060446669113389806,
+            "without_model": "Frozen ResNet18",
+            "with_model": "Fine-tuned ResNet18"
+        },
+        {
+            "component": "Transfer learning",
+            "without": 0.6362921324299485,
+            "with": 0.7037039720345583,
+            "improvement": 0.06741183960460972,
+            "without_model": "Augmented CNN",
+            "with_model": "Fine-tuned ResNet18"
+        },
+        {
+            "component": "Hyperparameter tuning",
+            "without": 0.6047325240910933,
+            "with": 0.7076817104980431,
+            "improvement": 0.10294918640694972,
+            "without_model": "Reference configuration",
+            "with_model": "Best tuned configuration"
+        },
+        {
+            "component": "Class weights",
+            "without": 0.7124394260257173,
+            "with": 0.7076817104980431,
+            "improvement": -0.004757715527674233,
+            "without_model": "Unweighted loss",
+            "with_model": "Weighted loss"
+        }
+    ],
+    "outputs": {
+        "ablation_summary_csv": "results/ablation_studies/ablation_summary.csv",
+        "overall_ablation_figure": "results/ablation_studies/figures/overall_ablation.png",
+        "improvement_figure": "results/ablation_studies/figures/ablation_improvements.png",
+        "unweighted_checkpoint": "results/ablation_studies/checkpoints/resnet18_unweighted_best.pth"
+    }
+}

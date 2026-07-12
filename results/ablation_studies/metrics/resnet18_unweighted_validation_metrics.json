@@ -1,0 +1,16 @@
+{
+    "validation_loss": 0.964585346196379,
+    "validation_accuracy": 0.7904761904761904,
+    "validation_macro_precision": 0.7285328359787343,
+    "validation_macro_recall": 0.699387027642303,
+    "validation_macro_f1": 0.7124394260257173,
+    "best_epoch": 19,
+    "training_seconds": 141.22097450587898,
+    "training_mode": "fine_tuned",
+    "backbone_learning_rate": 0.0003,
+    "classifier_learning_rate": 0.0003,
+    "dropout": 0.5,
+    "weight_decay": 0.0001,
+    "class_weights": false,
+    "checkpoint": "results/ablation_studies/checkpoints/resnet18_unweighted_best.pth"
+}
