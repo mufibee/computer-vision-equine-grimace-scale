@@ -1,0 +1,7 @@
+true_label,true_class,predicted_label,predicted_class,error_count,mean_confidence,maximum_confidence
+0,No Pain,1,Moderate Pain,18,0.6835744563076231,0.8993178009986877
+1,Moderate Pain,0,No Pain,13,0.6364208941276257,0.9946607947349548
+1,Moderate Pain,2,Severe Pain,11,0.663869012485851,0.9782071709632874
+2,Severe Pain,0,No Pain,10,0.8699658989906311,0.9810710549354553
+2,Severe Pain,1,Moderate Pain,8,0.5756782256066799,0.7890810966491699
+0,No Pain,2,Severe Pain,6,0.534953291217486,0.7281033992767334

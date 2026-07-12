@@ -1,0 +1,4 @@
+true_label,true_class,sample_count,correct_count,mean_confidence,class_accuracy
+0,No Pain,203,179,0.8758472158697438,0.8817733990147784
+1,Moderate Pain,67,43,0.6802277044573827,0.6417910447761194
+2,Severe Pain,45,27,0.8170809388160706,0.6

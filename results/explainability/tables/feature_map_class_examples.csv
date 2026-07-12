@@ -1,0 +1,4 @@
+dataset_index,true_label,true_class,predicted_label,predicted_class,confidence,correct,probability_no_pain,probability_moderate_pain,probability_severe_pain,horse_id,face_region,image_path
+51,0,No Pain,0,No Pain,0.9998775720596313,True,0.9998775720596313,6.037625280441716e-05,6.203852535691112e-05,M4,ears,/home/uteam6/computer-vision-equine-grimace-scale/data/raw/train_raw/02494_8d271876-f19_M4_A0__145_.jpg
+213,1,Moderate Pain,1,Moderate Pain,0.9626032710075378,True,0.03308967873454094,0.9626032710075378,0.004307015333324671,M4,eyes,/home/uteam6/computer-vision-equine-grimace-scale/data/raw/train_raw/02656_b67f3062-41b_M4_B1__21_.jpg
+247,2,Severe Pain,2,Severe Pain,0.9932764768600464,True,0.00036348632420413196,0.006360040511935949,0.9932764768600464,M4,eyes,/home/uteam6/computer-vision-equine-grimace-scale/data/raw/train_raw/02690_6358602b-b56_M4_B2__16_.jpg

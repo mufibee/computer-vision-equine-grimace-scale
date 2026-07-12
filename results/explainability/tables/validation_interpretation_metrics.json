@@ -1,0 +1,14 @@
+{
+    "split": "validation",
+    "sample_count": 315,
+    "accuracy": 0.7904761904761904,
+    "macro_precision": 0.7076544610982838,
+    "macro_recall": 0.707854814596966,
+    "macro_f1": 0.7076817104980431,
+    "weighted_precision": 0.7912806290981065,
+    "weighted_recall": 0.7904761904761904,
+    "weighted_f1": 0.7908348989015314,
+    "mean_confidence": 0.8258440738632565,
+    "mean_correct_confidence": 0.8664486255032949,
+    "mean_incorrect_confidence": 0.6726541744940209
+}
