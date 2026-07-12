@@ -1,0 +1,2 @@
+weighted_test_loss,unweighted_test_loss,test_accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1,test_sample_count,correct_prediction_count,incorrect_prediction_count,mean_prediction_confidence,mean_correct_confidence,mean_incorrect_confidence
+0.9004623554338347,0.7679684116590492,0.6572052401746725,0.60988241590606,0.602537838487065,0.6041763121444353,0.664067471705783,0.6572052401746725,0.6592063147367245,916,602,314,0.7463089437854342,0.797637749896493,0.6479014874833404

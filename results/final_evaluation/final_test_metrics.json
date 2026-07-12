@@ -1,0 +1,17 @@
+{
+    "weighted_test_loss": 0.9004623554338347,
+    "unweighted_test_loss": 0.7679684116590492,
+    "test_accuracy": 0.6572052401746725,
+    "macro_precision": 0.60988241590606,
+    "macro_recall": 0.602537838487065,
+    "macro_f1": 0.6041763121444353,
+    "weighted_precision": 0.664067471705783,
+    "weighted_recall": 0.6572052401746725,
+    "weighted_f1": 0.6592063147367245,
+    "test_sample_count": 916,
+    "correct_prediction_count": 602,
+    "incorrect_prediction_count": 314,
+    "mean_prediction_confidence": 0.7463089437854342,
+    "mean_correct_confidence": 0.797637749896493,
+    "mean_incorrect_confidence": 0.6479014874833404
+}

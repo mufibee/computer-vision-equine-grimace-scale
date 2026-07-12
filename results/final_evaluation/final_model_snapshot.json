@@ -1,0 +1,70 @@
+{
+    "evaluation_timestamp_utc": "2026-07-12T21:02:31.338144+00:00",
+    "canonical_checkpoint": "results/final_model/best_model.pth",
+    "canonical_metadata": "results/final_model/best_model.json",
+    "checkpoint_sha256": "cda1c2e1e4f3646a43566f5baef00dcaf44272ffa543d9352483b9fdd4e2b65b",
+    "metadata_sha256": "8a8883bf3ff474df89a737b23f873e634170fc1e5979b8a38a0bbd406cbb7201",
+    "resolved_architecture": "resnet18",
+    "resolved_training_mode": "fine_tuned",
+    "resolved_num_classes": 3,
+    "resolved_class_names": [
+        "No Pain",
+        "Moderate Pain",
+        "Severe Pain"
+    ],
+    "resolved_dropout": 0.5,
+    "resolved_image_size": 224,
+    "resolved_resize_size": 256,
+    "resolved_class_weights": [
+        0.5353661179542542,
+        1.5501501560211182,
+        2.0533015727996826
+    ],
+    "source_metadata": {
+        "phase": 7,
+        "model_family": "resnet18",
+        "training_mode": "fine_tuned",
+        "selection_split": "validation",
+        "selection_metric": "validation_macro_f1",
+        "selection_rule": [
+            "highest validation Macro F1",
+            "highest validation accuracy",
+            "lowest validation loss"
+        ],
+        "test_set_used": false,
+        "best_configuration": {
+            "experiment_id": "config_02_lr_low",
+            "learning_rate": 0.0003,
+            "dropout": 0.5,
+            "weight_decay": 0.0001
+        },
+        "validation_metrics": {
+            "loss": 0.5878481842222668,
+            "accuracy": 0.7904761904761904,
+            "macro_precision": 0.7076544610982838,
+            "macro_recall": 0.707854814596966,
+            "macro_f1": 0.7076817104980431,
+            "weighted_f1": 0.7908348989015314
+        },
+        "class_names": [
+            "No Pain",
+            "Moderate Pain",
+            "Severe Pain"
+        ],
+        "num_classes": 3,
+        "image_size": 224,
+        "resize_size": 256,
+        "augmentation": "RandomCrop",
+        "class_weights": [
+            0.5353661179542542,
+            1.5501501560211182,
+            2.0533015727996826
+        ],
+        "checkpoint_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/hyperparameter_tuning/best_tuned_model.pth",
+        "history_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/hyperparameter_tuning/best_tuned_history.csv",
+        "predictions_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/hyperparameter_tuning/best_tuned_validation_predictions.csv",
+        "canonical_model_updated": true,
+        "replaced_phase_6_candidate": true,
+        "previous_phase_6_macro_f1": 0.6496500304321363
+    }
+}

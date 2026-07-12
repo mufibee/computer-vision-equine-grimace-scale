@@ -1,0 +1,69 @@
+{
+    "phase": 10,
+    "name": "Final Untouched Test Evaluation",
+    "evaluation_timestamp_utc": "2026-07-12T21:02:31.338144+00:00",
+    "test_set_used": true,
+    "training_performed": false,
+    "tuning_performed": false,
+    "model_comparison_performed": false,
+    "threshold_changed": false,
+    "random_augmentation_used": false,
+    "shuffle": false,
+    "model_eval_mode": true,
+    "inference_mode": true,
+    "primary_selection_metric": "macro_f1",
+    "test_csv": "data/splits/test.csv",
+    "test_csv_sha256": "c5a671fd030e797a2e79be115fc144714cc83c54b4be381ebcf0c34829440d09",
+    "test_sample_count": 916,
+    "checkpoint_sha256": "cda1c2e1e4f3646a43566f5baef00dcaf44272ffa543d9352483b9fdd4e2b65b",
+    "metadata_sha256": "8a8883bf3ff474df89a737b23f873e634170fc1e5979b8a38a0bbd406cbb7201",
+    "device": "cuda",
+    "gpu": "Quadro RTX 4000",
+    "python_version": "3.11.15",
+    "platform": "Linux-6.2.0-26-generic-x86_64-with-glibc2.35",
+    "torch_version": "2.5.1+cu121",
+    "sklearn_version": "1.9.0",
+    "seed": 42,
+    "batch_size": 32,
+    "num_workers": 4,
+    "preprocessing": {
+        "resize": [
+            256,
+            256
+        ],
+        "center_crop": 224,
+        "to_tensor": true,
+        "normalization_mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "normalization_std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "loss_reporting": {
+        "primary": "class_weighted_cross_entropy",
+        "secondary": "unweighted_cross_entropy"
+    },
+    "high_confidence_threshold": 0.8,
+    "final_metrics": {
+        "weighted_test_loss": 0.9004623554338347,
+        "unweighted_test_loss": 0.7679684116590492,
+        "test_accuracy": 0.6572052401746725,
+        "macro_precision": 0.60988241590606,
+        "macro_recall": 0.602537838487065,
+        "macro_f1": 0.6041763121444353,
+        "weighted_precision": 0.664067471705783,
+        "weighted_recall": 0.6572052401746725,
+        "weighted_f1": 0.6592063147367245,
+        "test_sample_count": 916,
+        "correct_prediction_count": 602,
+        "incorrect_prediction_count": 314,
+        "mean_prediction_confidence": 0.7463089437854342,
+        "mean_correct_confidence": 0.797637749896493,
+        "mean_incorrect_confidence": 0.6479014874833404
+    }
+}

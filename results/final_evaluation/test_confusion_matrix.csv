@@ -1,0 +1,4 @@
+,predicted_No Pain,predicted_Moderate Pain,predicted_Severe Pain
+true_No Pain,383,82,23
+true_Moderate Pain,56,115,50
+true_Severe Pain,43,60,104
