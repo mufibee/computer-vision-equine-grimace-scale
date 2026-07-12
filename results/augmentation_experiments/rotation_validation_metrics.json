@@ -1,0 +1,32 @@
+{
+    "experiment": "rotation",
+    "checkpoint_epoch": 21,
+    "epochs_completed": 31,
+    "validation_loss": 0.7680703009877886,
+    "validation_accuracy": 0.6761904761904762,
+    "validation_macro_f1": 0.5120933442470349,
+    "train_accuracy_at_checkpoint": 0.6489732661759008,
+    "history_val_accuracy_at_checkpoint": 0.6761904761904762,
+    "train_macro_f1_at_checkpoint": null,
+    "history_val_macro_f1_at_checkpoint": 0.5120933442470349,
+    "macro_f1_overfitting_gap": NaN,
+    "accuracy_overfitting_gap": -0.027217210014575444,
+    "best_history_val_macro_f1": 0.5354402440044661,
+    "best_history_val_accuracy": 0.6857142857142857,
+    "lowest_history_val_loss": 0.7680703009877886,
+    "checkpoint_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/augmentation_experiments/checkpoints/rotation_best.pth",
+    "history_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/augmentation_experiments/histories/rotation_history.csv",
+    "validation_metric_accuracy": 0.6761904761904762,
+    "validation_metric_macro_precision": 0.6069744253105883,
+    "validation_metric_macro_recall": 0.5429834952223012,
+    "validation_metric_macro_f1": 0.5120933442470349,
+    "validation_metric_weighted_precision": 0.7378500013474547,
+    "validation_metric_weighted_recall": 0.6761904761904762,
+    "validation_metric_weighted_f1": 0.6705153514051391,
+    "validation_metric_per_class_accuracy": [
+        0.8571428571428571,
+        0.19402985074626866,
+        0.5777777777777777
+    ],
+    "validation_metric_loss": 0.7680703009877886
+}

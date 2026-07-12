@@ -1,0 +1,32 @@
+{
+    "experiment": "random_crop",
+    "checkpoint_epoch": 31,
+    "epochs_completed": 41,
+    "validation_loss": 0.7394843061765035,
+    "validation_accuracy": 0.7047619047619048,
+    "validation_macro_f1": 0.569502990467223,
+    "train_accuracy_at_checkpoint": 0.6815187911662146,
+    "history_val_accuracy_at_checkpoint": 0.7047619047619048,
+    "train_macro_f1_at_checkpoint": null,
+    "history_val_macro_f1_at_checkpoint": 0.569502990467223,
+    "macro_f1_overfitting_gap": NaN,
+    "accuracy_overfitting_gap": -0.0232431135956902,
+    "best_history_val_macro_f1": 0.6362921324299485,
+    "best_history_val_accuracy": 0.7396825396825397,
+    "lowest_history_val_loss": 0.7394843061765035,
+    "checkpoint_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/augmentation_experiments/checkpoints/random_crop_best.pth",
+    "history_path": "/home/uteam6/computer-vision-equine-grimace-scale/results/augmentation_experiments/histories/random_crop_history.csv",
+    "validation_metric_accuracy": 0.7047619047619048,
+    "validation_metric_macro_precision": 0.592762686060118,
+    "validation_metric_macro_recall": 0.6041549232491074,
+    "validation_metric_macro_f1": 0.569502990467223,
+    "validation_metric_weighted_precision": 0.7496987348441227,
+    "validation_metric_weighted_recall": 0.7047619047619048,
+    "validation_metric_weighted_f1": 0.7119731070739638,
+    "validation_metric_per_class_accuracy": [
+        0.8472906403940886,
+        0.29850746268656714,
+        0.6666666666666666
+    ],
+    "validation_metric_loss": 0.7394843061765035
+}
