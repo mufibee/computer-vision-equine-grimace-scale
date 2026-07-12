@@ -1,0 +1,45 @@
+{
+  "selected_model": "Transfer Learning",
+  "model_family": "resnet18",
+  "selection_metric": "validation_macro_f1",
+  "selection_rule": [
+    "highest validation Macro F1",
+    "highest validation accuracy",
+    "lowest validation loss",
+    "fewest trainable parameters"
+  ],
+  "class_names": [
+    "No Pain",
+    "Moderate Pain",
+    "Severe Pain"
+  ],
+  "num_classes": 3,
+  "image_size": 224,
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "validation_csv": "/home/uteam6/computer-vision-equine-grimace-scale/data/splits/validation.csv",
+  "source_checkpoint": "/home/uteam6/computer-vision-equine-grimace-scale/results/transfer_learning/best_transfer_model.pth",
+  "canonical_checkpoint": "/home/uteam6/computer-vision-equine-grimace-scale/results/final_model/best_model.pth",
+  "source_history": "/home/uteam6/computer-vision-equine-grimace-scale/results/transfer_learning/best_transfer_history.csv",
+  "metrics": {
+    "validation_loss": 0.6039736041947017,
+    "validation_accuracy": 0.7523809523809524,
+    "macro_precision": 0.6483276372118058,
+    "macro_recall": 0.6614856750729112,
+    "macro_f1": 0.6496500304321363,
+    "weighted_f1": 0.7567368538001527,
+    "parameter_count": 11178051,
+    "trainable_parameter_count": 11178051,
+    "best_epoch": 10,
+    "training_time_seconds": null
+  },
+  "test_set_used": false
+}
