@@ -78,8 +78,7 @@ computer-vision-equine-grimace-scale/
 ├── src/
 │
 ├── requirements.txt
-├── README.md
-└── LICENSE
+└── README.md
 ```
 
 ---
