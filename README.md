@@ -52,7 +52,7 @@ Classes:
 # Repository Structure
 
 ```text
-computer-vision-equine-grimace-scale
+computer-vision-equine-grimace-scale/
 │
 ├── data/
 │   ├── raw/
@@ -63,21 +63,23 @@ computer-vision-equine-grimace-scale
 │   ├── 01_dataset_preparation.ipynb
 │   ├── 02_data_pipeline.ipynb
 │   ├── 03_baseline_cnn.ipynb
-│   ├── 04_data_augmentation.ipynb
+│   ├── 04_augmentation_experiments.ipynb
 │   ├── 05_transfer_learning.ipynb
-│   ├── 06_model_selection.ipynb
+│   ├── 06_model_evaluation.ipynb
 │   ├── 07_hyperparameter_tuning.ipynb
 │   ├── 08_ablation_studies.ipynb
 │   ├── 09_explainability.ipynb
 │   └── 10_final_evaluation.ipynb
 │
+├── reports/
+│
 ├── results/
 │
 ├── src/
 │
+├── requirements.txt
 ├── README.md
-│
-└── requirements.txt
+└── LICENSE
 ```
 
 ---
@@ -97,7 +99,16 @@ Recommended environment:
 - Pillow
 - Jupyter Notebook
 
-Install dependencies:
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/mufibee/computer-vision-equine-grimace-scale.git
+cd computer-vision-equine-grimace-scale
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -256,15 +267,22 @@ Compares:
 
 ---
 
-## Phase 9 — Explainability
+## Phase 9 — Explainability and Critical Analysis
 
 Run:
 
-```
+```text
 notebooks/09_explainability.ipynb
 ```
 
-Generates Grad-CAM visualisations showing which facial regions influenced model predictions.
+Generates qualitative visualizations and analyses of the final selected ResNet18 model, including:
+
+- Learned first-layer convolutional filters
+- Feature-map visualizations from early, middle, and deep convolutional layers
+- Representative correctly classified examples from each pain category
+- High-confidence misclassified examples
+- Confidence distribution analysis
+- Visual interpretation of the model's learned feature representations
 
 ---
 
