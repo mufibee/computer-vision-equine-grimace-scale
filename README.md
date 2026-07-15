@@ -14,7 +14,7 @@ The project follows a complete machine learning workflow including:
 - Model selection
 - Hyperparameter tuning
 - Ablation studies
-- Explainability using Grad-CAM
+- Explainability and Critical Analysis
 - Final untouched test evaluation
 
 ---
@@ -338,15 +338,18 @@ Selection metric:
 
 # Results
 
-Final evaluation reports:
+The final evaluation reports:
 
+- Test loss
 - Accuracy
 - Precision
 - Recall
-- Macro F1
-- Weighted F1
+- Macro F1-score
+- Weighted F1-score
+- Classification report
+- Confusion matrix
 
-along with confusion matrices, prediction confidence analysis, Grad-CAM visualisations, and detailed error analysis.
+The project also includes qualitative analysis through learned convolutional filters, feature-map visualizations, representative correctly classified examples, high-confidence misclassified examples, confidence analysis, and detailed error analysis to better understand the model's behaviour.
 
 ---
 
